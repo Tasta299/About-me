@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --accent-color: #f59e0b;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --bg-main: #ffffff;
+  --bg-light: #f3f4f6;
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --border-radius: 8px;
+  --max-content-width: 1100px;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

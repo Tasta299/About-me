@@ -1,0 +1,305 @@
+{
+  "hub": {
+    "profile": {
+      "name": "Tất Chí Thành",
+      "avatar": "Assets/2d56a2efb1d4308a69c5.jpg",
+      "target_position": "Intern Business Analyst / Data Analyst",
+      "tagline": "Chuyển đổi nhu cầu kinh doanh thành giải pháp hệ thống khả thi",
+      "introducing": "Sinh viên năm cuối chuyên ngành Khoa học Dữ liệu tại Đại học Kinh tế TP.HCM (UEH), đồng thời có kinh nghiệm làm việc trong lĩnh vực gia sư Toán học cho học sinh lớp 9 và lớp 12.\n\nQuá trình học tập giúp xây dựng nền tảng tư duy logic và khả năng phân tích yêu cầu và dữ liệu, trong khi công việc giảng dạy rèn luyện kỹ năng giao tiếp, truyền đạt và trình bày vấn đề một cách rõ ràng, có hệ thống.\n\nĐịnh hướng phát triển theo vị trí Technical Business Analyst (Technical BA), với mong muốn kết nối giữa nhu cầu nghiệp vụ và giải pháp công nghệ. Hiện đang chủ động học hỏi, trau dồi kiến thức và tích lũy kinh nghiệm để từng bước tham gia, đóng góp vào các dự án thực tế trong môi trường doanh nghiệp.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "thanhtat.2909@gmail.com",
+          "link": "mailto:thanhtat.2909@gmail.com",
+          "icon": "fa-solid fa-envelope"
+        },
+        {
+          "type": "phone",
+          "value": "0903 167 549",
+          "link": "tel:0903167549",
+          "icon": "fa-solid fa-phone"
+        },
+        {
+          "type": "linkedin",
+          "value": "LinkedIn Profile",
+          "link": "https://www.linkedin.com/in/t%E1%BA%A5t-ch%C3%AD-th%C3%A0nh-97762736a/",
+          "icon": "fa-brands fa-linkedin"
+        },
+        {
+          "type": "github",
+          "value": "Tasta299",
+          "link": "https://github.com/Tasta299",
+          "icon": "fa-brands fa-github"
+        }
+      ]
+    },
+    "goals": {
+      "short_term": {
+        "label": "Mục Tiêu Ngắn Hạn",
+        "icon": "fa-solid fa-bullseye",
+        "items": [
+          {
+            "period": "Tuần 1 – 2",
+            "content": "Nắm vững quy trình làm việc tại doanh nghiệp. Chủ động hỗ trợ Mentor ghi chép biên bản cuộc họp (Meeting Minutes), làm quen với hệ thống và hỗ trợ viết tài liệu đặc tả (SRS/User Stories) cho các tính năng nhỏ."
+          },
+          {
+            "period": "Tuần 3 – 4",
+            "content": "Học hỏi các công cụ quản lý và nâng cao trình độ bản thân. Có thể tự lập trình và quản lý các task/bản vẽ quy trình nghiệp vụ (Flowchart) cơ bản mà không cần giám sát chặt chẽ. Phấn đấu trở thành Nhân viên chính thức IT BA."
+          },
+          {
+            "period": "Tuần 5 – 6",
+            "content": "Trực tiếp tham gia lấy yêu cầu (Requirements) từ 1–2 bài toán nghiệp vụ quy mô nhỏ của khách hàng. Tự học để chuẩn hóa kiến thức."
+          }
+        ]
+      },
+      "long_term": {
+        "label": "Mục Tiêu Dài Hạn",
+        "icon": "fa-solid fa-rocket",
+        "items": [
+          {
+            "period": "Giai đoạn 1",
+            "content": "Trở thành nhân viên chính thức ở vị trí Technical BA, thể hiện kiến thức và kinh nghiệm để tham gia vào nhiều dự án của công ty."
+          },
+          {
+            "period": "Giai đoạn 2",
+            "content": "Quản lý độc lập các module hoặc dự án vừa và nhỏ. Thành thạo kỹ năng quản trị kỳ vọng của khách hàng (Stakeholder Management) và tư vấn giải pháp tối ưu cho doanh nghiệp."
+          },
+          {
+            "period": "Giai đoạn 3",
+            "content": "Rèn luyện kỹ năng về tư duy hệ thống, cách thiết kế Database, hiểu luồng vận hành của APIs và cấu trúc hệ thống."
+          }
+        ]
+      }
+    },
+    "education": {
+      "school": "Đại Học Kinh Tế TP.HCM",
+      "major": "Khoa Học Dữ Liệu",
+      "gpa": "3.57/4.0",
+      "classification": "Giỏi"
+    },
+    "certifications": [
+      {
+        "name": "Microsoft Word",
+        "score": "925/1000"
+      },
+      {
+        "name": "Microsoft Excel",
+        "score": "975/1000"
+      },
+      {
+        "name": "Microsoft PowerPoint",
+        "score": "910/1000"
+      }
+    ],
+    "skills": {
+      "hard": [
+        {
+          "group": "Business Analysis",
+          "icon": "fa-solid fa-magnifying-glass-chart",
+          "items": [
+            {
+              "name": "Requirements Analysis",
+              "desc": "Thu thập, phân tích và làm rõ yêu cầu từ bài toán. Xác định yêu cầu chức năng và phi chức năng.",
+              "desc_full": "Có khả năng thu thập, phân tích và làm rõ yêu cầu từ bài toán hoặc nhu cầu của người dùng. Hiểu cách xác định yêu cầu chức năng chung, chúc năng kỹ thuật và phi chức năng nhằm hỗ trợ quá trình thiết kế giải pháp phù hợp."
+            },
+            {
+              "name": "Functional Analysis",
+              "desc": "Phân tích chức năng hệ thống, xác định đầu vào, đầu ra và luồng xử lý nghiệp vụ của usecase và BPMN.",
+              "desc_full": "Có khả năng phân tích chức năng của hệ thống, xác định đầu vào, đầu ra và luồng xử lý nghiệp vụ. Hỗ trợ chuyển đổi nhu cầu nghiệp vụ thành các yêu cầu có thể triển khai trong hệ thống."
+            },
+            {
+              "name": "Process Modeling",
+              "desc": "Mô tả và trực quan hóa quy trình nghiệp vụ, luồng công việc và mối quan hệ giữa các bước.",
+              "desc_full": "Có khả năng mô tả và trực quan hóa quy trình nghiệp vụ thông qua các sơ đồ phân tích. Hỗ trợ làm rõ luồng công việc, các tác nhân tham gia và mối quan hệ giữa các bước trong quy trình."
+            },
+            {
+              "name": "Data Modeling",
+              "desc": "Xây dựng mô hình dữ liệu cơ bản, hiểu nguyên tắc mô hình hóa và mối quan hệ thực thể.",
+              "desc_full": "Hiểu các nguyên tắc mô hình hóa dữ liệu và mối quan hệ giữa các thực thể. Có khả năng xây dựng mô hình dữ liệu cơ bản nhằm hỗ trợ phân tích nghiệp vụ và thiết kế cơ sở dữ liệu."
+            }
+          ]
+        },
+        {
+          "group": "Data Analysis",
+          "icon": "fa-solid fa-chart-column",
+          "items": [
+            {
+              "name": "SQL",
+              "desc": "Truy vấn, lọc, tổng hợp và phân tích dữ liệu. Thực hành thường xuyên qua các bài toán trên LeetCode.",
+              "desc_full": "Hiểu nguyên lý cơ sở dữ liệu quan hệ và sử dụng SQL để truy vấn, lọc, tổng hợp và phân tích dữ liệu. Có kinh nghiệm thực hành các bài toán SQL nhằm nâng cao tư duy xử lý dữ liệu."
+            },
+            {
+              "name": "Power BI",
+              "desc": "Xây dựng dashboard, trực quan hóa dữ liệu. Đang phát triển kỹ năng DAX và thiết kế dashboard chuẩn.",
+              "desc_full": "Sử dụng Power BI để xây dựng dashboard và trực quan hóa dữ liệu phục vụ phân tích. Hiểu quy trình xử lý dữ liệu cơ bản và đang phát triển kỹ năng DAX cũng như thiết kế dashboard theo các thông lệ tốt."
+            },
+            {
+              "name": "Dashboard Design",
+              "desc": "Xây dựng dashboard trình bày thông tin trực quan, theo dõi chỉ số và hỗ trợ ra quyết định.",
+              "desc_full": "Có khả năng xây dựng dashboard nhằm trình bày thông tin trực quan, hỗ trợ theo dõi chỉ số và đưa ra quyết định dựa trên dữ liệu."
+            },
+            {
+              "name": "Data Visualization",
+              "desc": "Lựa chọn biểu đồ và hình thức trình bày phù hợp để truyền tải dữ liệu dễ hiểu, hỗ trợ phân tích.",
+              "desc_full": "Biết cách lựa chọn biểu đồ và hình thức trình bày phù hợp để truyền tải dữ liệu một cách trực quan, dễ hiểu và hỗ trợ quá trình phân tích."
+            }
+          ]
+        },
+        {
+          "group": "Tools & Platforms",
+          "icon": "fa-solid fa-toolbox",
+          "items": [
+            {
+              "name": "Bizagi",
+              "desc": "Xây dựng mô hình dữ liệu từ quy trình nghiệp vụ AsIs và ToBe.",
+              "desc_full": "Sử dụng Bizagi để xây dựng các mô hình dữ liệu, quy trình nghiệp vụ AsIs và ToBe phục vụ phân tích yêu cầu và thiết kế hệ thống."
+            },
+            {
+              "name": "Microsoft Excel",
+              "desc": "Xử lý, tổng hợp và phân tích dữ liệu qua hàm tính toán, Pivot Table và Power Query.",
+              "desc_full": "Sử dụng Excel để xử lý, tổng hợp và phân tích dữ liệu thông qua các hàm tính toán, Pivot Table và các công cụ hỗ trợ quản lý dữ liệu."
+            },
+            {
+              "name": "Google Sheets",
+              "desc": "Quản lý dữ liệu, xây dựng bảng tính và cộng tác trực tuyến trong quá trình làm việc.",
+              "desc_full": "Sử dụng Google Sheets để quản lý dữ liệu, xây dựng bảng tính, áp dụng công thức và hỗ trợ cộng tác trực tuyến trong quá trình làm việc."
+            },
+            {
+              "name": "GitHub",
+              "desc": "Quản lý mã nguồn, theo dõi thay đổi và phối hợp phát triển dự án qua version control.",
+              "desc_full": "Sử dụng GitHub để quản lý mã nguồn, theo dõi thay đổi và phối hợp phát triển dự án thông qua hệ thống quản lý phiên bản."
+            }
+          ]
+        },
+        {
+          "group": "Foundation",
+          "icon": "fa-solid fa-layer-group",
+          "items": [
+            {
+              "name": "Relational Database",
+              "desc": "Hiểu nguyên lý CSDL quan hệ, thiết kế bảng, khóa chính, khóa ngoại và mối quan hệ dữ liệu.",
+              "desc_full": "Hiểu nguyên lý hoạt động của cơ sở dữ liệu quan hệ, bao gồm thiết kế bảng, khóa chính, khóa ngoại và các mối quan hệ dữ liệu."
+            },
+            {
+              "name": "Python (Basic)",
+              "desc": "Xử lý dữ liệu, tự động hóa các tác vụ đơn giản và hỗ trợ giải quyết bài toán học tập.",
+              "desc_full": "Sử dụng Python ở mức cơ bản để xử lý dữ liệu, tự động hóa các tác vụ đơn giản và hỗ trợ giải quyết các bài toán học tập."
+            }
+          ]
+        }
+      ],
+      "soft": [
+        {
+          "name": "Trình bày vấn đề",
+          "level": 90,
+          "desc": "Trình bày rõ ràng, lắng nghe chủ động, ứng biến tình huống"
+        },
+        {
+          "name": "Phân tích yêu cầu",
+          "level": 80,
+          "desc": "Xác định và làm rõ nhu cầu nghiệp vụ"
+        },
+        {
+          "name": "Làm việc nhóm",
+          "level": 85,
+          "desc": "Phối hợp hiệu quả trong môi trường nhóm"
+        },
+        {
+          "name": "Quản lý thời gian",
+          "level": 75,
+          "desc": "Ưu tiên công việc và đảm bảo deadline"
+        },
+        {
+          "name": "Tư duy phân tích",
+          "level": 90,
+          "desc": "Tiếp cận vấn đề có hệ thống và logic"
+        },
+        {
+          "name": "Giải quyết vấn đề",
+          "level": 90,
+          "desc": "Tìm giải pháp khả thi từ thông tin hạn chế"
+        },
+        {
+          "name": "Tư duy phản biện",
+          "level": 90,
+          "desc": "Đánh giá và xem xét yêu cầu của khách hàng có mang lại giá trị kinh doanh hơn là lãng phí tài nguyên hệ thống"
+        },
+        {
+          "name": "Tư duy giải pháp",
+          "level": 75,
+          "desc": "Chủ động tìm hiểu nguyên nhân cốt lõi và đề xuất giải pháp phù hợp"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "company": "The TutorX",
+        "role": "Gia sư",
+        "sindustry": "Education",
+        "period": "03/2025 - Hiện tại",
+        "tasks": [
+          "Kiểm tra học lực đầu vào để xác định lỗ hổng kiến thức.",
+          "Tham khảo và đưa ra phương pháp học để cải thiện điểm số",
+          "Soạn tài liệu và lộ trình học riêng theo năng lực học viên bằng hệ thống web trực quan.",
+          "Theo dõi tiến độ bằng các bài kiểm tra ngắn hàng tuần.",
+          "Trao đổi, báo cáo tình hình học tập với phụ huynh."
+        ],
+        "results": [
+          "Học viên nắm vững kiến thức chuyên môn.",
+          "Học viên đậu nguyện vọng 1 xuất sắc."
+        ]
+      }
+    ],
+    "featured_projects": [
+      {
+        "id": "PROJ-001",
+        "name": "Xây dựng quy trình nghiệp vụ kinh doanh",
+        "role": "Nhóm trưởng, chịu trách nhiệm kiểm tra toàn bộ.",
+        "business_problem": [
+          "Quy trình rườm rà->cần được tối giản",
+          "Tài liệu ghi chép rời rạc, dẫn đến khó tổng hợp",
+          "Thất thoát dữ liệu->cần được lưu trữ tập trung và đồng bộ",
+          "Quy trình còn lưu trữ và thao tác thủ công -> cần hệ thống tự động để xử lý"
+        ],
+        "solution": [
+          "Rà soát và viết lại quy trình tobe",
+          "Nghiên cứu và viết Requirements",
+          "Kiểm tra luồng nghiệp vụ Usecase",
+          "Hỗ trợ thiết lặp ERD.",
+          "Tạo giao diện mô phỏng cho hệ thống mới"
+        ],
+        "impact": "Tối ưu quy trình, giảm thời gian thực thi, tổng hợp thông tin chung giúp giám sát tiến độ dễ dàng.",
+        "node_url": "../node-quy-trinh-nghiep-vu/index.html"
+      }
+    ]
+  },
+  "nodes": {
+    "PROJ-001": {
+      "id": "PROJ-001",
+      "updated_at": "2026-06-24",
+      "context": "Đồ án môn học Phân tích nghiệp vụ kinh doanh của TQC CGLOBAL.",
+      "problem": "Quy trình nghiệp vụ hiện tại còn rườm rà, tồn tại nhiều bước xử lý thủ công và phụ thuộc vào thao tác cá nhân. Dữ liệu được lưu trữ phân tán ở nhiều nguồn khác nhau, gây khó khăn trong việc theo dõi tiến độ, phối hợp giữa các bộ phận và tiềm ẩn nguy cơ thất thoát thông tin. Ngoài ra, trách nhiệm xử lý ở một số công đoạn chưa được phân định rõ ràng dẫn đến tình trạng chồng chéo hoặc dồn việc",
+      "stakeholders": [
+        "Nhóm phát triển",
+        "Giảng viên hướng dẫn"
+      ],
+      "challenges": [
+        "Cần xác định nguyên nhân gốc rễ của nhiều vấn đề vận hành có mối liên hệ với nhau, đồng thời bảo đảm giải pháp đề xuất có khả năng giải quyết phần lớn các vấn đề được xác định trong quá trình phân tích. ",
+        "Việc xây dựng mô hình dữ liệu, quy trình nghiệp vụ và hệ thống chức năng phải phản ánh đúng thực tế hoạt động của doanh nghiệp và duy trì tính nhất quán giữa các mô hình."
+      ],
+      "analysis": [
+        "Nhóm áp dụng Fishbone kết hợp khung phân tích POPIT để đánh giá các vấn đề trên các khía cạnh Con người, Quy trình, Công nghệ, Thông tin và Tổ chức.",
+        "Thu thập và tổ chức yêu cầu nghiệp vụ, rà soát lại quy trình hiện tại và xây dựng quy trình đề xuất.",
+        "Các Use Case được thiết kế và kiểm tra nhằm bảo đảm từng Actor thực hiện đúng vai trò trong luồng vận hành mới.",
+        "Mô hình ERD được xây dựng để xác định đầy đủ các thực thể dữ liệu và mối quan hệ giữa chúng, bảo đảm cấu trúc cơ sở dữ liệu phù hợp với quy trình nghiệp vụ đã thiết kế.",
+        "Cuối cùng, giao diện mô phỏng được xây dựng nhằm kiểm chứng tính khả thi của giải pháp và bảo đảm tuân thủ các quy định chung của doanh nghiệp."
+      ],
+      "solution": "Tối ưu hóa quy trình, thiết kế giao diện mô phỏng hệ thống mới.",
+      "impact": [
+        "Hoàn thiện bộ tài liệu phân tích nghiệp vụ bao gồm mô hình hiện trạng, phân tích nguyên nhân gốc rễ, quy trình nghiệp vụ cải tiến, Use Case Diagram, ERD và giao diện mô phỏng hệ thống. Các mô hình được rà soát nhằm bảo đảm tính nhất quán giữa yêu cầu nghiệp vụ, quy trình vận hành và thiết kế dữ liệu.",
+        "Giải pháp đề xuất giúp chuẩn hóa quy trình làm việc, giảm sự phụ thuộc vào các thao tác thủ công và tăng khả năng kiểm soát hoạt động vận hành. Thông tin được tập trung trên cùng một hệ thống giúp nâng cao tính đồng bộ dữ liệu, hỗ trợ theo dõi tiến độ công việc, giám sát hiệu quả thực hiện và cải thiện chất lượng chăm sóc khách hàng.",
+        "Hệ thống cũng tạo nền tảng thuận lợi cho việc mở rộng và số hóa hoạt động trong tương lai."
+      ]
+    }
+  }
+}

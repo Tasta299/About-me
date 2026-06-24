@@ -1,0 +1,58 @@
+.node-header {
+  background: var(--bg-main);
+  padding: 20px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.node-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-link {
+  font-weight: 500;
+}
+
+.case-study-hero {
+  background: var(--text-main);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.case-study-hero h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.case-study-content {
+  background: var(--bg-main);
+  padding: 40px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+
+.section-block {
+  margin-bottom: 40px;
+}
+
+.section-block h2 {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--bg-light);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.stakeholders-list, .challenges-list, .skills-list {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.stakeholders-list li, .challenges-list li, .skills-list li {
+  margin-bottom: 8px;
+  color: var(--text-muted);
+}
