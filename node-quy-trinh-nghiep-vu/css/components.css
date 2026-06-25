@@ -1,39 +1,349 @@
+/* Buttons */
 .btn {
-  display: inline-block;
-  padding: 10px 24px;
-  border-radius: var(--border-radius);
-  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  font-family: var(--font-heading);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all var(--transition-normal);
   border: none;
   text-align: center;
+  gap: 8px;
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: white !important;
+  box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.25);
 }
 
 .btn-primary:hover {
-  background-color: var(--secondary-color);
-  color: #fff;
+  background-color: var(--secondary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
 }
 
+/* Cards with Glassmorphism */
 .card {
-  background: var(--bg-main);
+  background: var(--bg-white);
   border-radius: var(--border-radius);
-  padding: 24px;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid #e5e7eb;
+  padding: 32px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Decorative Line on Card */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+.card:hover::before { opacity: 1; }
+
+/* Tags */
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background: var(--bg-light);
-  color: var(--text-muted);
-  padding: 4px 12px;
+  color: var(--primary-light);
+  padding: 6px 14px;
   border-radius: 99px;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   margin-right: 8px;
   margin-bottom: 8px;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all var(--transition-fast);
+}
+
+.tag:hover {
+  background: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+.tag-soft {
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--accent-color);
+  border-color: rgba(14, 165, 233, 0.2);
+}
+.tag-soft:hover {
+  background: var(--accent-color);
+  color: white;
+}
+
+/* Grid System */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Goal Blocks */
+.goal-block {
+  margin-bottom: 56px;
+  padding: 36px;
+  background: var(--bg-white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.goal-block:last-child {
+  margin-bottom: 0;
+}
+
+/* Short-term block — Blue accent */
+.goal-block--short .goal-block-title { color: var(--secondary-color); }
+.goal-block--short .goal-item-card   { border-top: 3px solid var(--secondary-color); }
+.goal-block--short .goal-item-badge  { background: var(--secondary-color); }
+
+/* Long-term block — Sky accent */
+.goal-block--long .goal-block-title { color: var(--accent-color); }
+.goal-block--long .goal-item-card   { border-top: 3px solid var(--accent-color); }
+.goal-block--long .goal-item-badge  { background: var(--accent-color); }
+
+.goal-block-title {
+  font-size: 1.35rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--bg-light);
+}
+
+.goal-block-title i {
+  font-size: 1.1rem;
+}
+
+.goal-item-card {
+  background: var(--bg-white);
+  border-radius: var(--border-radius);
+  padding: 24px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-top-width: 3px;
+  position: relative;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.goal-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.goal-item-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-bottom: 4px;
+}
+
+.goal-item-period {
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.goal-item-content {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+/* Skills Cards */
+.skills-card {
+  padding: 32px;
+}
+
+.skills-card-title {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 16px;
+}
+
+.skills-card-title i {
+  color: var(--secondary-color);
+}
+
+/* Hard Skills Group */
+.skill-group {
+  margin-bottom: 24px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-group-header {
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-group-header i {
+  color: var(--accent-color);
+}
+
+/* Hard Skill Detail Cards */
+.skill-group-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+.skill-detail-card {
+  background: var(--bg-light);
+  border-radius: var(--border-radius-sm);
+  padding: 14px 16px;
+  border-left: 3px solid var(--secondary-color);
+  transition: all var(--transition-fast);
+}
+.skill-detail-card:hover {
+  background: white;
+  box-shadow: var(--shadow-sm);
+  border-left-color: var(--accent-color);
+}
+.skill-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.skill-detail-header i {
+  color: var(--secondary-color);
+  font-size: 0.85rem;
+}
+.skill-detail-name {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 0.95rem;
+}
+.skill-detail-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Soft Skills Progress */
+.soft-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.soft-skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.soft-skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.soft-skill-name {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.soft-skill-level {
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.soft-skill-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.skill-bar-track {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-light);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  width: 0; /* Animated via JS */
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 4px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scroll Reveal */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -1,34 +1,56 @@
 :root {
-  --primary-color: #0f172a;       /* Slate 900 */
-  --primary-light: #1e293b;       /* Slate 800 */
-  --secondary-color: #2563eb;     /* Blue 600 - cho các nút/link nổi bật */
-  --secondary-hover: #1d4ed8;     /* Blue 700 */
-  --accent-color: #0ea5e9;        /* Sky 500 */
-  
-  --text-main: #1e293b;           /* Chữ chính tối màu */
-  --text-muted: #64748b;          /* Slate 500 */
-  --text-light: #f8fafc;          /* Chữ sáng trên nền tối */
-  
-  --bg-main: #f8fafc;             /* Nền website sáng */
-  --bg-light: #f1f5f9;            /* Xám nhạt */
-  --bg-white: #ffffff;
-  
-  --glass-bg: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(255, 255, 255, 0.5);
-  
+  /* Màu chủ đạo & Cấu trúc (30%) - Đậm nét, khỏe khoắn */
+  --primary-color: #4E423C;
+  /* Smoked Mocha - Nâu espresso xám khói */
+  --primary-light: #655750;
+  /* Smoked Mocha nhạt hơn */
+
+  /* Màu điểm nhấn (10%) - Cứng cáp, sang trọng */
+  --secondary-color: #CFA462;
+  /* Raw Gold - Vàng đồng thô */
+  --secondary-hover: #B88F4E;
+  /* Raw Gold đậm khi hover */
+  --accent-color: #E2C497;
+  /* Raw Gold nhạt để làm highlight */
+
+  /* Hệ thống chữ (Typography) */
+  --text-main: #4E423C;
+  /* Chữ chính màu Smoked Mocha đậm sắc nét */
+  --text-muted: #7E7068;
+  /* Nâu xám nhạt cho text phụ */
+  --text-light: #EFECE6;
+  /* Chữ sáng (Muted Cream) trên nền tối */
+
+  /* Hệ thống nền (60%) - Lì, mộc mạc như đá cát */
+  --bg-main: #EFECE6;
+  /* Muted Cream - Kem đá thô mộc */
+  --bg-light: #F5F3EF;
+  /* Kem đá sáng hơn cho khối nội dung */
+  --bg-white: #FFFFFF;
+
+  /* Hiệu ứng kính mờ (Glassmorphism) */
+  --glass-bg: rgba(239, 236, 230, 0.85);
+  /* Nền kính màu Kem Đá trong suốt */
+  --glass-border: rgba(78, 66, 60, 0.15);
+  /* Viền kính màu Nâu Khói mảnh */
+
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
   --font-heading: 'Outfit', 'Inter', sans-serif;
-  
+
+  /* Bo góc giữ nguyên */
   --border-radius-sm: 8px;
   --border-radius: 12px;
   --border-radius-lg: 20px;
-  
+
   --max-content-width: 1200px;
-  
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
-  
+
+  /* Hệ thống đổ bóng mang lại cảm giác nặng, sâu và vững chãi */
+  --shadow-sm: 0 1px 3px 0 rgba(78, 66, 60, 0.08);
+  --shadow-md: 0 4px 12px -1px rgba(78, 66, 60, 0.15), 0 2px 4px -1px rgba(78, 66, 60, 0.05);
+  --shadow-lg: 0 15px 30px -3px rgba(78, 66, 60, 0.2), 0 4px 12px -2px rgba(236, 194, 128, 0.1);
+
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Bổ sung cấu trúc cho Avatar có vòng trắng bao quanh */
+  --avatar-border-width: 6px;
 }

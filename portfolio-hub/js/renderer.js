@@ -134,8 +134,9 @@ const Renderer = {
         const container = document.getElementById('experience-container');
         if (!container || !experienceList) return;
 
-        container.innerHTML = experienceList.map(exp => `
-            <div class="timeline-item card">
+        // Wrap các timeline item bằng thẻ div class="timeline" để hiển thị đúng vạch nối
+        container.innerHTML = '<div class="timeline">' + experienceList.map(exp => `
+            <div class="timeline-item">
                 <h3>${exp.role} @ ${exp.company}</h3>
                 <div class="timeline-meta">${exp.period} | ${exp.industry}</div>
                 <div style="margin-top: 16px;">
@@ -151,7 +152,7 @@ const Renderer = {
                     </ul>
                 </div>
             </div>
-        `).join('');
+        `).join('') + '</div>';
     },
 
     renderEducation: function (education, certifications) {
@@ -200,7 +201,7 @@ const Renderer = {
         };
 
         container.innerHTML = projects.map(proj => `
-            <div class="card project-card">
+            <div class="project-item">
                 <h3>${proj.name}</h3>
                 <p style="color: var(--secondary-color); font-weight: 500; margin-bottom: 16px;">Vai trò: ${proj.role}</p>
                 <div style="margin-bottom: 12px;"><strong>Vấn đề:</strong>${renderList(proj.business_problem)}</div>

@@ -15,15 +15,20 @@ const Renderer = {
             let html = '';
             
             html += `
-                <div class="section-block">
-                    <h2>1. Bài toán (Problem & Challenges)</h2>
-                    <p>${nodeData.problem}</p>
-                    ${nodeData.challenges && nodeData.challenges.length ? `
-                        <h3>Thách thức</h3>
-                        <ul class="challenges-list">
-                            ${nodeData.challenges.map(c => `<li>${c}</li>`).join('')}
-                        </ul>
-                    ` : ''}
+                <div class="card section-block">
+                    <h2 class="section-title">1. Nghiên cứu người dùng (User Research)</h2>
+                    <div class="grid-2">
+                        <div>
+                            <h3 style="color: var(--secondary-color); margin-bottom: 12px; font-size: 1.25rem;">Problems</h3>
+                            <p>${nodeData.problem}</p>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--secondary-color); margin-bottom: 12px; font-size: 1.25rem;">Challenges</h3>
+                            <ul class="challenges-list" style="padding-left: 20px;">
+                                ${nodeData.challenges && nodeData.challenges.length ? nodeData.challenges.map(c => `<li style="margin-bottom: 8px; line-height: 1.6;">${c}</li>`).join('') : ''}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             `;
 
@@ -37,23 +42,29 @@ const Renderer = {
             };
 
             html += `
-                <div class="section-block">
-                    <h2>2. Phân tích (Analysis)</h2>
-                    ${renderContent(nodeData.analysis)}
+                <div class="card section-block">
+                    <h2 class="section-title">2. Phân tích (Analysis)</h2>
+                    <div>
+                        ${renderContent(nodeData.analysis)}
+                    </div>
                 </div>
             `;
 
             html += `
-                <div class="section-block">
-                    <h2>3. Giải pháp (Solution)</h2>
-                    ${renderContent(nodeData.solution)}
+                <div class="card section-block">
+                    <h2 class="section-title">3. Giải pháp (Solution)</h2>
+                    <div>
+                        ${renderContent(nodeData.solution)}
+                    </div>
                 </div>
             `;
 
             html += `
-                <div class="section-block">
-                    <h2>4. Kết quả & Tác động (Business Impact)</h2>
-                    ${renderContent(nodeData.impact)}
+                <div class="card section-block">
+                    <h2 class="section-title">4. Kết quả & Tác động (Business Impact)</h2>
+                    <div>
+                        ${renderContent(nodeData.impact)}
+                    </div>
                 </div>
             `;
             

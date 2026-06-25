@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Tất Chí Thành</title>
-    
+
     <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/hub.css">
 </head>
+
 <body>
     <header class="hub-header">
         <div class="container">
@@ -42,7 +44,8 @@
         <section id="about" class="about-section">
             <div class="container">
                 <h2 class="section-title">Lời giới thiệu</h2>
-                <div id="about-container" class="card" style="font-size: 1.1rem; line-height: 1.8; max-width: 860px; margin: 0 auto;">
+                <div id="about-container" class="card"
+                    style="font-size: 1.1rem; line-height: 1.8; max-width: 860px; margin: 0 auto;">
                     <!-- JS Injected: Introducing -->
                 </div>
             </div>
@@ -72,8 +75,16 @@
         <section id="experience" class="experience-section">
             <div class="container">
                 <h2 class="section-title">Kinh Nghiệm Làm Việc</h2>
-                <div class="grid-2" id="experience-container">
-                    <!-- JS Injected: timeline cards -->
+                <div class="card experience-main-card">
+                    <div class="grid-2" style="align-items: stretch;">
+                        <div id="experience-container" style="display: flex; flex-direction: column;">
+                            <!-- JS Injected: timeline cards -->
+                        </div>
+                        <div class="experience-image-wrapper" style="position: relative; min-height: 300px;">
+                            <img src="Assets/Picture1.jpg" alt="Experience Model"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; mix-blend-mode: multiply;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -92,8 +103,16 @@
         <section id="projects" class="projects-section">
             <div class="container">
                 <h2 class="section-title">Dự Án Nổi Bật</h2>
-                <div class="projects-grid" id="projects-container">
-                    <!-- JS Injected: project cards -->
+                <div class="card projects-main-card">
+                    <div class="grid-2" style="align-items: stretch;">
+                        <div id="projects-container" style="display: flex; flex-direction: column;">
+                            <!-- JS Injected: project cards -->
+                        </div>
+                        <div class="projects-image-wrapper" style="position: relative; min-height: 300px;">
+                            <img src="Assets/Picture2.jpg" alt="Projects Model"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; mix-blend-mode: multiply;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -101,7 +120,7 @@
 
     <footer class="hub-footer">
         <div class="container">
-            <p>&copy; 2026 Tất Chí Thành. Thiết kế và nội dung dựa trên cấu trúc Hub-Nodes.</p>
+            <p>&copy; 2026 Tất Chí Thành. Thiết kế và tối ưu vận hành.</p>
         </div>
     </footer>
 
@@ -112,4 +131,5 @@
     <script src="js/renderer.js"></script>
     <script src="js/hub.js"></script>
 </body>
+
 </html>

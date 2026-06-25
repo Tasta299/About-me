@@ -294,7 +294,7 @@
         "Mô hình ERD được xây dựng để xác định đầy đủ các thực thể dữ liệu và mối quan hệ giữa chúng, bảo đảm cấu trúc cơ sở dữ liệu phù hợp với quy trình nghiệp vụ đã thiết kế.",
         "Cuối cùng, giao diện mô phỏng được xây dựng nhằm kiểm chứng tính khả thi của giải pháp và bảo đảm tuân thủ các quy định chung của doanh nghiệp."
       ],
-      "solution": "Tối ưu hóa quy trình, thiết kế giao diện mô phỏng hệ thống mới.",
+      "solution": "Tối ưu hóa lại quy trình nghiệp vụ, thiết kế lại giao diện mô phỏng hệ thống mới để minh hoạ trực quan.",
       "impact": [
         "Hoàn thiện bộ tài liệu phân tích nghiệp vụ bao gồm mô hình hiện trạng, phân tích nguyên nhân gốc rễ, quy trình nghiệp vụ cải tiến, Use Case Diagram, ERD và giao diện mô phỏng hệ thống. Các mô hình được rà soát nhằm bảo đảm tính nhất quán giữa yêu cầu nghiệp vụ, quy trình vận hành và thiết kế dữ liệu.",
         "Giải pháp đề xuất giúp chuẩn hóa quy trình làm việc, giảm sự phụ thuộc vào các thao tác thủ công và tăng khả năng kiểm soát hoạt động vận hành. Thông tin được tập trung trên cùng một hệ thống giúp nâng cao tính đồng bộ dữ liệu, hỗ trợ theo dõi tiến độ công việc, giám sát hiệu quả thực hiện và cải thiện chất lượng chăm sóc khách hàng.",

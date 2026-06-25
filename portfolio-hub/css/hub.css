@@ -68,7 +68,7 @@
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  border: 8px solid var(--glass-bg);
+  border: var(--avatar-border-width, 4px) solid var(--accent-color);
   box-shadow: var(--shadow-lg);
 }
 
